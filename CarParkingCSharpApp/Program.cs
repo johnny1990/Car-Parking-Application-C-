@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarParkingCSharpApp.Implementation;
+using System;
 
 namespace CarParkingCSharpApp
 {
@@ -6,7 +7,9 @@ namespace CarParkingCSharpApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("---------------------Welcome to Car Parking !-----------------------------");
+            Parking p = new Parking();
+            p.Intro();
         }
     }
 }
