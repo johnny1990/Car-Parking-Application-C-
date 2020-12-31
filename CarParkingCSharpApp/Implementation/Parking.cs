@@ -9,7 +9,7 @@ namespace CarParkingCSharpApp.Implementation
     public class Parking : IParking
     {
         public int i = 0, j = 0, k = 0;
-        public string[] ParkingPlaces = new string[10];
+        public string[] ParkingPlaces = new string[11];
         public DateTime[] ArrivalHour = new DateTime[11];
 
         public void CarInfo()
